@@ -1,0 +1,102 @@
+body {
+    font-family: Inter, sans-serif;
+    background-color: rgb(241, 241, 241);
+    padding: 0;
+    margin: 0;
+}
+.title1{
+    font-weight: 300;
+    margin: 10px;
+}
+
+.title2 {
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+    font-size: 20px;
+}
+
+header p {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.container-cards{
+    width: 1205px;
+    height: 555px;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+
+.cards{
+    position: absolute;
+    text-align: center;
+    display: flex;
+}
+
+.card-supervisor-lupa, .card-builder, .card-karma, .card-supervisor-tv{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5%;
+    box-shadow: 2px 6px 6px 0.2px rgba(0, 0, 0, 0.1);
+}
+
+.card-supervisor-lupa{
+    border-top: 7px solid rgb(17, 200, 200);
+    left: 0%;
+    top: 120px;
+}
+
+.card-builder {
+    left: 5%;
+    border-top: 7px solid rgb(203, 2, 2);
+}
+
+.card-karma {
+    top: 18vw;
+    right: 29vh;
+    border-top: 7px solid rgb(255, 176, 29);
+}
+
+.card-supervisor-tv{
+    border-top: 7px solid rgb(99, 99, 255);
+    right: 20vh;
+    top:120px
+}
+
+.card-builder-content, .card-supervisor-lupa-content, .card-karma-content, .card-supervisor-tv-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0px 10px;
+}
+
+.card-builder-content h3, .card-supervisor-lupa-content h3, .card-karma-content h3, .card-supervisor-tv-content h3 {
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.card-builder-content p, .card-supervisor-lupa-content p, .card-karma-content p, .card-supervisor-tv-content p{
+    color: gray;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.team-builder, .supervisor, .tv, .karma {
+    height: 64px;
+    width: 64px;
+    left: 75%;
+    position: relative;
+    top: 25px;
+}
+
